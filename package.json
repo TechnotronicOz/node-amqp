@@ -1,7 +1,7 @@
 { "name" : "amqp"
 , "description" : "AMQP driver for node"
 , "keywords" : [ "amqp" ]
-, "version" : "0.2.6"
+, "version" : "0.2.7"
 , "author" : { "name" : "Ryan Dahl" }
 , "contributors" :
   [ { "name" : "Vasili Sviridov" }
@@ -19,6 +19,7 @@
   , { "name" : "David Barshow" }
   , { "name" : "Jason Pincin" }
   , { "name" : "Carl Hörberg" }
+  , { "name" : "Matt Carter" }
   ]
 , "repository" :
   { "type" : "git"
@@ -33,7 +34,7 @@
     , "url" : "http://github.com/postwait/node-amqp/raw/master/LICENSE-MIT"
     }
   ]
-, "dependencies" : 
+, "dependencies" :
   {
     "lodash": "^4.0.0"
   }

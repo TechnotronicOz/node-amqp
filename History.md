@@ -17,3 +17,8 @@
   * Added url support to connection credentials. (squaremo)
   * Support for pristine messages and all AMQP properties.
   * Added this history file.
+
+0.2.7 / 2017-04-13
+==================
+  * Added check on end event when connection closes to check if the
+    socket was destroyed and if so, attempt to reconnect.
